@@ -4,14 +4,14 @@
 \alias{ZRA}
 \title{Dynamic Plots for Time Series Forecasting}
 \usage{
-ZRA(data, VZ = 10, SN = c(0.8, 0.95), ...)
+ZRA(data, FP = 10, SL = c(0.8, 0.95), ...)
 }
 \arguments{
 \item{data}{(ts) Time series data.}
 
-\item{VZ}{(numeric) Forecast period.}
+\item{FP}{(numeric) Forecast period.}
 
-\item{SN}{(numeric) significance levels.}
+\item{SL}{(numeric) significance levels.}
 
 \item{...}{further arguments passed to the forecast-function.}
 }
